@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		
+		<!--Добавление PDB-файлов в пакет, для Win7-->
+		<DebugType>embedded</DebugType>
+		<!--https://docs.microsoft.com/ru-ru/dotnet/core/deploying/single-file-->
+		<!--Публикация приложения с одним файлом, ReadyToRun: Сборка- опубликовать-->		
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x86</RuntimeIdentifier>
+		<PublishReadyToRun>true</PublishReadyToRun>
+	</PropertyGroup>
+
+	
+	
+	<ItemGroup>				
+		<Resource Include="menu_images/menu_6.png" />		
+		<Resource Include="menu_images/menu_icon.png" />
+		<Resource Include="menu_images/menu_start.png" />
+		<Resource Include="menu_images/menu_control.png" />
+		<Resource Include="menu_images/menu_picture.png" />
+		<Resource Include="menu_images/menu_wood_texture.jpg" />		
+		
+		<Resource Include="cut_images/part_000.jpg" />
+
+		<Resource Include="cut_images/forest.jpg" />
+		<Resource Include="cut_images/elf.jpg" />
+		<Resource Include="cut_images/dragon.jpg" />
+		<Resource Include="cut_images/anime.jpg" />
+		<Resource Include="cut_images/witcher.jpg" />
+
+
+		<Resource Include="cut_images/forest_part_001.jpg" />
+		<Resource Include="cut_images/forest_part_002.jpg" />
+		<Resource Include="cut_images/forest_part_003.jpg" />
+		<Resource Include="cut_images/forest_part_004.jpg" />
+		<Resource Include="cut_images/forest_part_005.jpg" />
+		<Resource Include="cut_images/forest_part_006.jpg" />
+		<Resource Include="cut_images/forest_part_007.jpg" />
+		<Resource Include="cut_images/forest_part_008.jpg" />
+		<Resource Include="cut_images/forest_part_009.jpg" />
+
+		<Resource Include="cut_images/elf_part_001.jpg" />
+		<Resource Include="cut_images/elf_part_002.jpg" />
+		<Resource Include="cut_images/elf_part_003.jpg" />
+		<Resource Include="cut_images/elf_part_004.jpg" />
+		<Resource Include="cut_images/elf_part_005.jpg" />
+		<Resource Include="cut_images/elf_part_006.jpg" />
+		<Resource Include="cut_images/elf_part_007.jpg" />
+		<Resource Include="cut_images/elf_part_008.jpg" />
+		<Resource Include="cut_images/elf_part_009.jpg" />
+
+		<Resource Include="cut_images/dragon_part_001.jpg" />
+		<Resource Include="cut_images/dragon_part_002.jpg" />
+		<Resource Include="cut_images/dragon_part_003.jpg" />
+		<Resource Include="cut_images/dragon_part_004.jpg" />
+		<Resource Include="cut_images/dragon_part_005.jpg" />
+		<Resource Include="cut_images/dragon_part_006.jpg" />
+		<Resource Include="cut_images/dragon_part_007.jpg" />
+		<Resource Include="cut_images/dragon_part_008.jpg" />
+		<Resource Include="cut_images/dragon_part_009.jpg" />
+
+		<Resource Include="cut_images/anime_part_001.jpg" />
+		<Resource Include="cut_images/anime_part_002.jpg" />
+		<Resource Include="cut_images/anime_part_003.jpg" />
+		<Resource Include="cut_images/anime_part_004.jpg" />
+		<Resource Include="cut_images/anime_part_005.jpg" />
+		<Resource Include="cut_images/anime_part_006.jpg" />
+		<Resource Include="cut_images/anime_part_007.jpg" />
+		<Resource Include="cut_images/anime_part_008.jpg" />
+		<Resource Include="cut_images/anime_part_009.jpg" />
+
+		<Resource Include="cut_images/witcher_part_001.jpg" />
+		<Resource Include="cut_images/witcher_part_002.jpg" />
+		<Resource Include="cut_images/witcher_part_003.jpg" />
+		<Resource Include="cut_images/witcher_part_004.jpg" />
+		<Resource Include="cut_images/witcher_part_005.jpg" />
+		<Resource Include="cut_images/witcher_part_006.jpg" />
+		<Resource Include="cut_images/witcher_part_007.jpg" />
+		<Resource Include="cut_images/witcher_part_008.jpg" />
+		<Resource Include="cut_images/witcher_part_009.jpg" />		
+	</ItemGroup>
+
+
+</Project>

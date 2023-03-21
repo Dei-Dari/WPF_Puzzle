@@ -1,0 +1,10 @@
+﻿<Application x:Class="Puzzle_3.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Puzzle_3"    
+             DispatcherUnhandledException="Application_DispatcherUnhandledException"
+             StartupUri="MenuPuzzle.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
